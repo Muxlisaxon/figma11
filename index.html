@@ -1,35 +1,213 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
- <link rel="stylesheet" href="./index.css">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
 </head>
-  <body>
-<nav>
+
+<body>
+  <nav>
     <div class="container">
-        <div class="row">
-            <div class="col-2">
-                <img src="./image/FTK.png" alt="" class="logo">
-            </div>
-            <div class="col-4">
-                <ul class="list">
-                    <li class="list_item"></li>
-                    <li class="list_item"></li>
-                    <li class="list_item"></li>
-                    <li class="list_item"></li>
-                    <li class="list_item"></li>
-
-                </ul>
-            </div>
-            <div class="col-3">
-
-            </div>
+      <div class="row justify-content-between align-items-center">
+        <div class="col-2">
+          <img src="./image/FTK.png" alt="" class="logo">
         </div>
+        <div class="col-6">
+          <ul class="list">
+            <li class="list_item">Тарифы</li>
+            <li class="list_item">О компании</li>
+            <li class="list_item">Акции</li>
+            <li class="list_item">Оставить заявку</li>
+            <li class="list_item">Контакты</li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <a href="#!" class="phone">(812) 332-34-33
+          </a>
+          <a href="#!" class="gmail">support@gtk.su
+          </a>
+        </div>
+      </div>
     </div>
-</nav>
+  </nav>
+
+  <header>
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-10">
+          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/orange.jpg" class="d-block w-100" alt="...">
+
+                <div class="left_right">
+                  <div class="left_text">
+                    <h1 class="usa">Пять месяцев интернета <br>
+                      на скорости 100 мбит/cек</h1>
+                    <p class="korean">Подключитесь к ГТК и работайте <br> быстрее со скоростью 100 мбит/сек. <br>
+                      в течение 5 месяцев</p>
+                    <button class="btn1">Подробнее</button>
+                  </div>
+                  <div class="right_img">
+                    <img src="./image/mans.png" alt="" class="imagemen">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img src="./image/blue1.jpg" class="d-block w-100" alt="...">
+
+                <div class="left_right">
+                  <div class="left_text">
+                    <h1 class="usa">Пять месяцев интернета <br>
+                      на скорости 100 мбит/cек</h1>
+                    <p class="korean">Подключитесь к ГТК и работайте <br> быстрее со скоростью 100 мбит/сек. <br>
+                      в течение 5 месяцев</p>
+                    <button class="btn1">Подробнее</button>
+                  </div>
+                  <div class="right_img">
+                    <img src="./image/mans.png" alt="" class="imagemen">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img src="./image/yelow.jpg" class="d-block w-100" alt="...">
+
+                <div class="left_right">
+                  <div class="left_text">
+                    <h1 class="usa">Пять месяцев интернета <br>
+                      на скорости 100 мбит/cек</h1>
+                    <p class="korean">Подключитесь к ГТК и работайте <br> быстрее со скоростью 100 мбит/сек. <br>
+                      в течение 5 месяцев</p>
+                    <button class="btn1">Подробнее</button>
+                  </div>
+                  <div class="right_img">
+                    <img src="./image/mans.png" alt="" class="imagemen">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-10">
+          <div class="carts">
+          <div class="cart_box">
+            <div class="top_color1">
+            </div>
+            <div class="padding-left">
+              
+            <h3 class="head">Тариф <br>
+              <b>«Супер»</b> </h3>
+            <hr>
+            <p class="lorem">Вы можете бесперебойно решать <br> повседневные задачи в сети: <br> досуг, учеба или работа
+            </p>
+            <div class="ong_chap">
+              <div class="chap">
+              <p class="connect">Подключение</p>
+              <p class="connect">Скорость</p>
+              </div>
+              <div class="ong">
+              <p class="free">Бесплатно</p>
+              <p class="free">50 мб/с</p>
+              </div>
+            </div>
+            <hr>
+            <div class="bottom_main">
+              <p class="sum"> <b>от 315</b>  </p>
+              <p class="money">руб/мес.</p>
+            </div>
+            <button class="btn1">Оставить заявку</button>
+            </div>
+          </div>
+
+
+
+          <div class="cart_box">
+            <div class="top_color2">
+            </div>
+            <div class="padding-left">
+              <h3 class="head">Тариф <br>
+                <b>«Мега»</b> </h3>
+               <hr>
+               <p class="lorem">Вы можете бесперебойно решать <br> повседневные задачи в сети: <br> досуг, учеба или работа
+               </p>
+               <div class="ong_chap">
+                 <div class="chap">
+                 <p class="connect">Подключение</p>
+                 <p class="connect">Скорость</p>
+                 </div>
+                 <div class="ong">
+                 <p class="free">Бесплатно</p>
+                 <p class="free">100 мб/с</p>
+                 </div>
+               </div>
+               <hr>
+               <div class="bottom_main">
+                 <p class="sum"> <b>от 430</b> </p>
+                 <p class="money">руб/мес.</p>
+               </div>
+               <button class="btn1">Оставить заявку</button>
+            </div>
+          </div>
+
+
+          <div class="cart_box">
+            <div class="top_color3">
+              
+            </div>
+            <div class="padding-left">
+              
+            <h3 class="head">Тариф <br>
+              <b>«Гига»</b> </h3>
+            <hr>
+            <p class="lorem">Вы можете бесперебойно решать <br> повседневные задачи в сети: <br> досуг, учеба или работа
+            </p>
+            <div class="ong_chap">
+              <div class="chap">
+              <p class="connect">Подключение</p>
+              <p class="connect">Скорость</p>
+              </div>
+              <div class="ong">
+              <p class="free">Бесплатно</p>
+              <p class="free">200 мб/с</p>
+              </div>
+            </div>
+            <hr>
+            <div class="bottom_main">
+              <p class="sum"> <b>от 650</b>  </p>
+              <p class="money">руб/мес.</p>
+            </div>
+            <button class="btn1">Оставить заявку</button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -44,8 +222,9 @@
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
 </html>
