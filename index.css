@@ -10,6 +10,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
 }
 nav{
     background: #436591;
@@ -125,7 +126,7 @@ background: white;
 }
 .ong_chap{
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 .cart_box{
     background: #FFFFFF;
@@ -210,8 +211,174 @@ width: 100%;
     padding: 15px;
 }
 
+.two{
+    margin-top: 50px;
+    background:  #fff; 
+    padding-top: 79px;
+    padding-bottom: 45px;
+}
+.vector{
+    margin-left: 150px;
+    background: #FF6E3C;
+    padding: 30px 50px 20px 60px;
+    transform: skewX(-20deg);
+    border-radius: 20px;
+}
+.text-vector{
+    transform: skewX(20deg);
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+}
+.vactor {
+    background: #FF6E3C;
+    padding: 30px 50px 20px 60px;
+    transform: skewX(-20deg);
+    border-radius: 20px;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.text-vector {
+    transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.section2 {
+    margin-top: 56px;
+    padding-top: 46px;
+    padding-bottom: 23px;
+    background: #fff;
+}
 
 
+.sozlar
+ {
+    padding-left: 120px;
+    padding-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1F2630;
+}
+
+.vector-two {
+    height: 152px;
+    background: #FFC50B;
+    transform: skewX(-20deg);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.bir-ikki{
+    width: 960px;
+    height: 240px;
+    display: flex;
+    background: #FFFFFF;
+border: 1px solid #E4E9EF;
+box-shadow: 0px 20px 30px -15px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+margin-top: 52px;
+box-shadow: 2px 2px 10px gray;
+}
+.bg{
+    margin-left: 155px;
+}
+.servic{
+    font-family: 'Stapel Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+color: #1F2630;
+}
+.vi{
+    font-family: 'Stapel';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #1F2630;
+}
+.btn2{
+    font-family: 'Stapel';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: right;
+color: #1F2630;
+padding: 6px 50px;
+background: #FFFFFF;
+border: 1px solid #E4E9EF;
+box-shadow: 0px 20px 30px -15px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+border: 2px solid #20f58e;
+margin-top: 50px;
+margin-left: 30px;
+}
+.bir{
+    padding-top: 23px;
+    padding-left: 30px;
+}
+
+.four{
+    margin-top: 70px;
+}
+.carta1{
+    margin-top: 50px;
+    display: flex;
+    background: linear-gradient(98.07deg, #ED6E44 -5.24%, #FCBD14 85.53%, #FFFFFF 126.15%), #F6AE96;
+box-shadow: 0px 20px 30px -15px rgba(241, 131, 56, 0.6);
+border-radius: 15px;
+padding-left: 28px;
+position: relative;
+width: 460px;
+}
+.carta2{ 
+    margin-top: 50px; 
+    display: flex;
+background: linear-gradient(120.27deg, #2FA56C -2.27%, #2389CA 104.54%), #FFFFFF;
+box-shadow: 0px 20px 30px -15px rgba(40, 148, 168, 0.7);
+border-radius: 15px;
+padding-left: 28px;
+position: relative;
+}
+.abanent{
+    font-weight: 500;
+font-size: 24px;
+color: #FFFFFF;
+}
+.legko{
+    font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+}
+.girl{
+position: absolute;
+padding-left: 42px;
+/* padding-bottom: -100px; */
+top: -89px;
+}
+.boy{
+    position: absolute;
+    padding-left: 9px;
+    top: -89px;
+}
+.four{
+    margin-left: 150px;
+}
 
 
 
