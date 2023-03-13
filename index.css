@@ -186,6 +186,7 @@ color: #7A8698;
 .carts{
     display: flex;
     justify-content: space-between;
+    gap: 40px;
     margin-left: 170px;
     margin-top: 100px;
 }
